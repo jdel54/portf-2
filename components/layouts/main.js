@@ -19,7 +19,7 @@ const Main = ({ children, router }) => {
         <meta name="author" content="Jorge Del Castillo" />
         <meta name="author" content="jdel54" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="jdelcastillox" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@jdel54" />
