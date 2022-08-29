@@ -10,7 +10,7 @@ import {
   useColorModeValue,
   chakra
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -36,6 +36,13 @@ const Home = () => (
       >
         Passionate about the STARTUP ecosystem and businesses with a high technological base ❤️
       </Box>
+      <Box align="center" my={4} >
+      <Link target="_blank" href="mailto:jorgedcastillogarcia@gmail.com" passHref scroll={false}>
+            <Button  rightIcon={<EmailIcon />} colorScheme="teal">
+              Contact me
+            </Button>
+          </Link>
+          </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>

@@ -29,7 +29,7 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem 
-          href="https://music-searcher.vercel.app/"
+          href=""
           id="Medifresco" title="Medifresco" thumbnail={Medifresco_r}>
             First founded Startup - foodtech (Meal kit company). +70k€ in revenue during one year.
             Tech: Shopify, analytics and plugins
