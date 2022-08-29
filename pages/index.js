@@ -28,7 +28,7 @@ const Home = () => (
     <Container>
       <Box
         borderRadius="3xl"
-        mb={6}
+        mb={5}
         p={3}
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
