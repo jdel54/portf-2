@@ -1,18 +1,15 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import musicSearch_r from '../public/images/works/musicSearch_r.png'
+import Medifresco_r from '../public/images/works/Medifresco_r.png'
+import auth_r from '../public/images/works/auth_r.png'
+import tweetbeer_r from '../public/images/works/tweetbeer_r.png'
+import codex_r from '../public/images/works/codex_r.png'
+import web3rsvp_r from '../public/images/works/web3rsvp_r.png'
+import vacat_r from '../public/images/works/vacat_r.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -23,100 +20,72 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem 
+          href="https://music-searcher.vercel.app/"
+          id="Music Searcher" title="Music Searcher Itunes" thumbnail={musicSearch_r}>
+            A Music searcher connected to Itunes API to retrieve music and listen a short piece.
+            Tech: Nextjs, node
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem 
+          href="https://music-searcher.vercel.app/"
+          id="Medifresco" title="Medifresco" thumbnail={Medifresco_r}>
+            First founded Startup - foodtech (Meal kit company). +70k€ in revenue during one year.
+            Tech: Shopify, analytics and plugins
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
+            href="https://authentication-sigma.vercel.app/"
+            id="Authentication"
+            title="Authentication "
+            thumbnail={auth_r}
           >
-            Music recommendation app for iOS
+            Authentication using Nextjs and mongodb as a database with encrypted passwords
+            Tech: Nextjs, node, mongodb, nextAuth
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            href= "https://tweetbeer.vercel.app/"
+            id="Tweetbeer"
+            title="Tweetbeer"
+            thumbnail={tweetbeer_r}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            Social platform where people can share their thougths while drinking a beer.
+            <br/>Tech: Nextjs, node, firebase auth, firebase db
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+          <WorkGridItem 
+          href="https://codex.signalcorps.io/"
+          id="NFT drop" thumbnail={codex_r} title="NFT drop Signalcorps">
+            
+            NFT drop for Signalcorps for a brand where they wanted to launch their token.
+            Tech: Nextjs, thirdweb, web3 hooks
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem 
+          href="https://rsvp.vercel.app/"
+          id="web3 rsvp" thumbnail={web3rsvp_r} title="Web3 rsvp events">
+            Web3rsvp where users can vip to an event in web3 to events.
+            <br/>Tech: Nextjs, GraphQl, Rainbowkit, solidity, tailwindcss
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem 
+          href="https://vacational-homes.vercel.app/"
+          id="Vacational homes" thumbnail={vacat_r} title="Clone vacational homes">
+            Clone of a famous vacational home
+            <br/>Tech: Nextjs, tailwindcss
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
-      <Section delay={0.2}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
-            A website of the elite app development and contracting agency based
-            in Austria
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem
-            id="modetokyo"
-            thumbnail={thumbModeTokyo}
-            title="mode.tokyo"
-          >
-            The mode magazine for understanding to personally enjoy Japan
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-
-      <Section delay={0.4}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Old works
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.5}>
-          <WorkGridItem
-            id="freedbtagger"
-            thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
-          >
-            Automatic audio file tagging tool using FreeDB for Windows
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
+       
     </Container>
   </Layout>
 )

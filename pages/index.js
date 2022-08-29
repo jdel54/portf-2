@@ -4,7 +4,6 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Button,
   List,
   ListItem,
@@ -16,10 +15,8 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import { IoLogoTwitter, IoLogoGithub, 
+  IoLogoLinkedin, IoLogoWhatsapp, IoLogoGoogle } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -30,22 +27,22 @@ const Home = () => (
   <Layout>
     <Container>
       <Box
-        borderRadius="lg"
+        borderRadius="3xl"
         mb={6}
         p={3}
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Passionate about the STARTUP ecosystem and businesses with a high technological base ❤️
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+          Jorge Del Castillo
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>( Engineer / Product &amp; Project manager / Developer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -62,38 +59,26 @@ const Home = () => (
             display="inline-block"
             borderRadius="full"
             overflow="hidden"
-          >
+          ><div id="aboutme">
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/images/Jorge.jpeg"
               alt="Profile image"
               borderRadius="full"
               width="100%"
               height="100%"
-            />
+            /></div>
           </Box>
         </Box>
       </Box>
-
-      <Section delay={0.1}>
-        <Heading as="h3" variant="section-title">
-          Work
+     
+      <Section  delay={0.1}>
+        <Heading  as="h3" variant="section-title">
+          About me
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
-          </NextLink>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <NextLink href="https://www.youtube.com/devaslife" passHref>
-            <Link target="_blank">Dev as Life</Link>
-          </NextLink>
-          &quot; has more than 100k subscribers.
+        Nonconformist and energetic. I am passionate about the STARTUP
+        ecosystem and businesses with a high technological base.
+        Currently, learning Nextjs, tailwind and others to become full stack. 
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -106,120 +91,132 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Working Experience
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+        <BioYear>Feb2021 - July 2022</BioYear>
+        CTO, COO and Cofounder(Medifresco)
+        Startup e-commerce of Meal Kits based in Mallorca. Meal kit service supported with a physical store. +70k€ revenue in 1 Year. In charge of building the platform and digital structure detecting dropoffs and all posible CRO improvement strategies (Digital and Operational)
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+        <BioYear>Sept 2019 - March 2021</BioYear>
+        Project Management (Umlaut Strategy Consulting for AIRBUS)
+        Leading and optimizing change processes of airplanes (4M€ Budget) applying project management methodologies. Alignment between different parties (customer and supplier) and product iterations. Detecting automation and digitalization opportunities.Supported and documented a new manufacturing line and aligned requirements between AIRBUS and Supplier
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+        <BioYear>Sept 2017 - Sept 2019</BioYear>
+        Project Management (VIE program for AIRBUS)
+        Supported directly the Head of the department and subteams and led the digitalization of the department, ensuring traversal participation between all involved parties. Automated and digitalized opportunities applying project management skills (+500k€ managed), iterating MVP until final version. In parallel, I managed risks and possible opportunities (low risk-high opportunity)
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>Jul 2016 - Jul 2017</BioYear>
+          AIRBUS trainee (Global supply chain Factory)
+          Official point of contact between supplier and production
+          Advanced control of raw material needs
+          Exhaustive control of supply needs within the production site
+          Stock controlling
+          Improvement and development of new tools linked to SAP
+        </BioSection>
+        <Box align="center" my={4}>
+          <Link target="_blank" href="https://firebasestorage.googleapis.com/v0/b/jdel54-portfolio.appspot.com/o/CV-Jorge-English.pdf?alt=media&token=3202bf89-38c4-452f-a56f-268f17ca3cf8" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My Resumé
+            </Button>
+          </Link>
+        </Box>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Education
+        </Heading>
+        <BioSection>
+        <BioYear>August 2018 - February 2021</BioYear>
+        MIT University (online)
+        MicroMasters in supply chain Management with focus on the whole supply chain process
+        </BioSection>
+        <BioSection>
+        <BioYear>August 2016 - August 2017</BioYear>
+        Universidad de Alcalá de Henares (Spain)
+        Master with focus in: Development in companies, strategy, efficiency,communication, economics international business law, and finance
+        </BioSection>
+        <BioSection>
+        <BioYear>Feb 2015 - August 2015</BioYear>
+        University of Münster (Germany)
+        Granted scholarship in an exchange program to complete my final bachelor thesis
+        </BioSection>
+        <BioSection>
+        <BioYear>Sept 2010 - Sept 2015</BioYear>
+        Universidad de Córdoba (Spain)
+        Degree in Mechanical Engineering offering mixed and comprehensive training in the engineering field
+        </BioSection>
+        <BioSection>
+          <BioYear>Sept 2007 - Sept 2009</BioYear>
+          British School of Cordoba : British diploma (A-level, IGCSE) and Spanish diploma - Double high school diploma.
         </BioSection>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
-        </Heading>
-        <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
-        </Paragraph>
-      </Section>
-
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          On the web
+          Find me here:
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/jdel54" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @jdel54
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/jdelcastillox" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @jdelcastillox
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://www.linkedin.com/in/jdelcastillog/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoLogoLinkedin />}
               >
-                @craftzdog (日本語)
+                @jdelcastillog
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="mailto:jorgedcastillogarcia@gmail.com" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
+                leftIcon={<IoLogoGoogle/>}
               >
-                @craftzdog
+                Email me
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://wa.me/+34666276376" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoWhatsapp />}
+              >
+                Write me
               </Button>
             </Link>
           </ListItem>
         </List>
-
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel (&gt;100k subs)
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
-        </SimpleGrid>
-
-        <Box align="center" my={4}>
-          <NextLink href="/posts" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
     </Container>
   </Layout>

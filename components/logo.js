@@ -22,20 +22,21 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+  const macbook = `/images/macbook${useColorModeValue('', '-dark')}.png`
 
   return (
-    <Link href="/" scroll={false}>
+    <Link  href="/" scroll={false}>
       <a>
         <LogoBox>
-          <Image src={footPrintImg} width={20} height={20} alt="logo" />
+          <Image
+          ml={2}
+          src={macbook} width={22} height={22} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='M PLUS Rounded 1c", sans-serif'
             fontWeight="bold"
-            ml={3}
           >
-            Takuya Matsuyama
+    &nbsp;Jorge Del Castillo
           </Text>
         </LogoBox>
       </a>
