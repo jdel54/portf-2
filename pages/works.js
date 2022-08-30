@@ -10,6 +10,7 @@ import tweetbeer_r from '../public/images/works/tweetbeer_r.png'
 import codex_r from '../public/images/works/codex_r.png'
 import web3rsvp_r from '../public/images/works/web3rsvp_r.png'
 import vacat_r from '../public/images/works/vacat_r.png'
+import Link from 'next/link'
 
 const Works = () => (
   <Layout title="Works">
@@ -21,6 +22,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem 
+          target="_blank"
           href="https://music-searcher.vercel.app/"
           id="Music Searcher" title="Music Searcher Itunes" thumbnail={musicSearch_r}>
             A Music searcher connected to Itunes API to retrieve music and listen a short piece.
@@ -37,6 +39,7 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem
+            target="_blank"
             href="https://authentication-sigma.vercel.app/"
             id="Authentication"
             title="Authentication "
@@ -49,6 +52,7 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
+            target="_blank"
             href= "https://tweetbeer.vercel.app/"
             id="Tweetbeer"
             title="Tweetbeer"
@@ -60,6 +64,7 @@ const Works = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem 
+          target="_blank"
           href="https://codex.signalcorps.io/"
           id="NFT drop" thumbnail={codex_r} title="NFT drop Signalcorps">
             
@@ -69,6 +74,7 @@ const Works = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem 
+          target="_blank"
           href="https://rsvp.vercel.app/"
           id="web3 rsvp" thumbnail={web3rsvp_r} title="Web3 rsvp events">
             Web3rsvp where users can vip to an event in web3 to events.
@@ -77,6 +83,7 @@ const Works = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem 
+          target="_blank"
           href="https://vacational-homes.vercel.app/"
           id="Vacational homes" thumbnail={vacat_r} title="Clone vacational homes">
             Clone of a famous vacational home
