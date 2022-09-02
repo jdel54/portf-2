@@ -101,22 +101,22 @@ const Home = () => (
           Working Experience
         </Heading>
         <BioSection>
-        <BioYear>Feb2021 - July 2022</BioYear>
+        <BioYear>Feb2021 - July 2022 (Spain)</BioYear>
         <br/><b>[CTO, COO and Cofounder(Medifresco)]</b>
         <br/>Startup e-commerce of Meal Kits based in Mallorca. Meal kit service supported with a physical store. +70k€ revenue in 1 Year. In charge of building the platform and digital structure detecting dropoffs and all posible CRO improvement strategies (Digital and Operational)
         </BioSection>
         <BioSection>
-        <BioYear>Sept 2019 - March 2021</BioYear>
+        <BioYear>Sept 2019 - March 2021 (Germany)</BioYear>
         <br/><b>[Project Management (Umlaut Strategy Consulting for AIRBUS)]</b>
         <br/>Leading and optimizing change processes of airplanes (4M€ Budget) applying project management methodologies. Alignment between different parties (customer and supplier) and product iterations. Detecting automation and digitalization opportunities.Supported and documented a new manufacturing line and aligned requirements between AIRBUS and Supplier
         </BioSection>
         <BioSection>
-        <BioYear>Sept 2017 - Sept 2019</BioYear>
+        <BioYear>Sept 2017 - Sept 2019 (Germany)</BioYear>
         <br/><b>Project Management (VIE program for AIRBUS)</b>
         <br/>Supported directly the Head of the department and subteams and led the digitalization of the department, ensuring traversal participation between all involved parties. Automated and digitalized opportunities applying project management skills (+500k€ managed), iterating MVP until final version. In parallel, I managed risks and possible opportunities (low risk-high opportunity)
         </BioSection>
         <BioSection>
-          <BioYear>Jul 2016 - Jul 2017</BioYear>
+          <BioYear>Jul 2016 - Jul 2017 (Spain)</BioYear>
           <br/><b>AIRBUS trainee (Global supply chain Factory)</b>
           <br/>Official point of contact between supplier and production
           Advanced control of raw material needs
@@ -159,7 +159,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>Sept 2007 - Sept 2009</BioYear>
-          <br/><b>British School of Cordoba</b> 
+          <br/><b>British School of Cordoba (Spain)</b> 
           <br/>British diploma (A-level, IGCSE) and Spanish diploma - Double high school diploma.
         </BioSection>
       </Section>
