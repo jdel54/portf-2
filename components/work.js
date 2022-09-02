@@ -6,7 +6,7 @@ export const Title = ({ children }) => (
   <Box>
     <NextLink href="/works" passHref>
       Works
-    </NextLink>
+    </NextLink>g
     <span>
       {' '}
       <ChevronRightIcon />{' '}
