@@ -10,7 +10,6 @@ import tweetbeer_r from '../public/images/works/tweetbeer_r.png'
 import codex_r from '../public/images/works/codex_r.png'
 import web3rsvp_r from '../public/images/works/web3rsvp_r.png'
 import vacat_r from '../public/images/works/vacat_r.png'
-import Link from 'next/link'
 
 const Works = () => (
   <Layout title="Works">
