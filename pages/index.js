@@ -68,7 +68,8 @@ const Home = () => (
             overflow="hidden"
           ><div id="aboutme">
             <ProfileImage
-              src="/images/Jorge.jpeg"
+              background={useColorModeValue('whiteAlpha.200', 'whiteAlpha.500')}
+              src="/images/Jorge_cv_modified.png"
               alt="Profile image"
               borderRadius="full"
               width="100%"
