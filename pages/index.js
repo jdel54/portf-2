@@ -25,13 +25,7 @@ const ProfileImage = chakra(Image, {
 
 const Home = () => (
   <Layout>
-    <Container>
-      
-      <Box align="center" my={4} >
-      <Link target="_blank" href="mailto:jorgedcastillogarcia@gmail.com" passHref scroll={false}>
-          </Link>
-          </Box>
-
+    <Container>  
       <Box display={{ md: 'flex' }}>
         <Box textAlign="center" flexGrow={1}>
           <Heading as="h2" variant="page-title">
@@ -68,7 +62,9 @@ const Home = () => (
         </Box>
       </Box>
       <Box align="center">
+      <Link href="mailto:jorgedcastillogarcia@gmail.com" target="_blank">
       <Button rightIcon={<EmailIcon />} colorScheme="teal"> Contact me </Button>
+      </Link>
       </Box>
       <Section  delay={0.1}>
         <Heading  as="h3" variant="section-title">
