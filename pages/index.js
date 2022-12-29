@@ -91,6 +91,11 @@ const Home = () => (
           Working Experience
         </Heading>
         <BioSection>
+        <BioYear>September - 2022 - Currently (Spain)</BioYear>
+        <br/><b>[Partner and business developer leader (Solarchain)]</b>
+        <br/>Scaling and growing strategies for the solar panels industry, optimizing strategies and opportunities.
+        </BioSection>
+        <BioSection>
         <BioYear>Feb2021 - July 2022 (Spain)</BioYear>
         <br/><b>[CTO, COO and Cofounder(Medifresco)]</b>
         <br/>Startup e-commerce of Meal Kits based in Mallorca. Meal kit service supported with a physical store. +70k€ revenue in 1 Year. In charge of building the platform and digital structure detecting dropoffs and all posible CRO improvement strategies (Digital and Operational)
