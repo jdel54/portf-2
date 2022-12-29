@@ -26,21 +26,9 @@ const ProfileImage = chakra(Image, {
 const Home = () => (
   <Layout>
     <Container>
-      <Box
-        borderRadius="3xl"
-        mb={5}
-        p={3}
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-        css={{ backdropFilter: 'blur(10px)' }}
-      >
-        Passionate about the STARTUP ecosystem and businesses with a high technological base ❤️
-      </Box>
+      
       <Box align="center" my={4} >
       <Link target="_blank" href="mailto:jorgedcastillogarcia@gmail.com" passHref scroll={false}>
-            <Button  rightIcon={<EmailIcon />} colorScheme="teal">
-              Contact me
-            </Button>
           </Link>
           </Box>
 
@@ -49,8 +37,9 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
           Jorge Del Castillo
           </Heading>
-          <p>( Engineer / Product &amp; Project manager / Developer )</p>
+          <p>( Engineer / Entrepeneur &amp; Business driven/ Product &amp; Project manager / Developer )</p>
         </Box>
+        
         <Box
           flexShrink={0}
           mt={{ base: 4, md: 0 }}
@@ -78,15 +67,15 @@ const Home = () => (
           </Box>
         </Box>
       </Box>
-     
+      <Box align="center">
+      <Button rightIcon={<EmailIcon />} colorScheme="teal"> Contact me </Button>
+      </Box>
       <Section  delay={0.1}>
         <Heading  as="h3" variant="section-title">
           About me
         </Heading>
-        <Paragraph>
-        Nonconformist and energetic. I am passionate about the STARTUP
-        ecosystem and businesses with a high technological base.
-        Currently, learning Nextjs, tailwind and others to become full stack. 
+        <Paragraph>Nonconformist and energetic. I am passionate about the STARTUP
+        ecosystem and businesses with a high technological base. Very interested in Growth and scaling businesses ❤️
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -141,7 +130,7 @@ const Home = () => (
         <BioSection>
         <BioYear>August 2018 - February 2021</BioYear>
         <br/><b>MIT University (online)</b>
-        <br/>MicroMasters in supply chain Management with focus on the whole supply chain process
+        <br/>MicroMasters in supply chain Management with focusing on the whole process
         </BioSection>
         <BioSection>
         <BioYear>August 2016 - August 2017</BioYear>
@@ -161,7 +150,7 @@ const Home = () => (
         <BioSection>
           <BioYear>Sept 2007 - Sept 2009</BioYear>
           <br/><b>British School of Cordoba (Spain)</b> 
-          <br/>British diploma (A-level, IGCSE) and Spanish diploma - Double high school diploma.
+          <br/>British (A-level, IGCSE) and Spanish education - Double high school diploma.
         </BioSection>
       </Section>
 
