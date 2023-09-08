@@ -89,7 +89,7 @@ const Home = () => (
         <BioSection>
         <BioYear>September - 2022 - Currently (Spain)</BioYear>
         <br/><b>[Partner and business developer leader (Solarchain)]</b>
-        <br/>Scaling and growing strategies for the solar panels industry, optimizing strategies and opportunities. Led the whole digital transition of the company from working to excel to automatising all the internal processes up to the relation with the customer, implementing a CRM.
+        <br/>Scaling and growing strategies for the solar panels industry, optimizing strategies and opportunities. Led the whole digital transition of the company from working in excel to automatising all the internal processes up to the relation with the customer, implementing a CRM.
         </BioSection>
         <BioSection>
         <BioYear>Feb2021 - July 2022 (Spain)</BioYear>
@@ -116,7 +116,7 @@ const Home = () => (
           Improvement and development of new tools linked to SAP
         </BioSection>
         <Box align="center" my={4}>
-          <Link target="_blank" href="https://firebasestorage.googleapis.com/v0/b/jdel54-portfolio.appspot.com/o/CV_Jorge_English_Sept23.pdf?alt=media&token=3f21e26a-68e1-42fc-b548-7dc224876610" passHref scroll={false}>
+          <Link target="_blank" href="https://firebasestorage.googleapis.com/v0/b/jdel54-portfolio.appspot.com/o/CV_Jorge_English_Sept23.pdf?alt=media&token=6b5ca14b-3a0f-48bf-bcff-d299517a22d3" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My Resumé
             </Button>
