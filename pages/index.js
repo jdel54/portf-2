@@ -128,19 +128,19 @@ const Home = () => (
       <Heading as="h3" variant="section-title">
       Side Projects
       </Heading>
-      <li>
+      
         <Link
         target="_blank"
         href="https://usewise.io"
         >
-        Usewise.io</Link> - own AI-powered business advisor for companies that rapidly processes all internal knowledge, documents, and data.
-        </li>
-      <li><Link
+        → Usewise.io</Link> - own AI-powered business advisor for companies that rapidly processes all internal knowledge, documents, and data.
+    
+      <br/><Link
       target="_blank"
       href="https://linklemon.agency"
       >
-      Linklemon.agency</Link> - Expertise in automatising processes and workflows for companies reducing manual workload</li>
-      <li>Amazon FBA seller</li>
+      → Linklemon.agency</Link> - Expertise in automatising processes and workflows for companies reducing manual workload
+      <br/>→ Amazon FBA seller
     </BioSection>
       </Section>
       <Section delay={0.3}>
