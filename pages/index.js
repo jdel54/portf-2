@@ -89,7 +89,7 @@ const Home = () => (
         <BioSection>
         <BioYear>September - 2022 - Currently (Spain)</BioYear>
         <br/><b>[Partner and business developer leader (Solarchain)]</b>
-        <br/>Scaling and growing strategies for the solar panels industry, optimizing strategies and opportunities.
+        <br/>Scaling and growing strategies for the solar panels industry, optimizing strategies and opportunities. Led the whole digital transition of the company from working to excel to automatising all the internal processes up to the relation with the customer, implementing a CRM.
         </BioSection>
         <BioSection>
         <BioYear>Feb2021 - July 2022 (Spain)</BioYear>
@@ -123,7 +123,20 @@ const Home = () => (
           </Link>
         </Box>
       </Section>
-
+      <Section delay={0.3}>
+    <BioSection>
+      <Heading as="h3" variant="section-title">
+      Side Projects
+      </Heading>
+      <li>
+        <Link>
+        Usewise.io</Link> - own AI-powered business advisor for companies that rapidly processes all internal knowledge, documents, and data.
+        </li>
+      <li><Link>
+      Linklemon.agency</Link> - Expertise in automatising processes and workflows for companies reducing manual workload</li>
+      <li>Amazon FBA seller</li>
+    </BioSection>
+      </Section>
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           Education
