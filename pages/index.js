@@ -73,13 +73,6 @@ const Home = () => (
         <Paragraph>Nonconformist and energetic. I am passionate about the STARTUP
         ecosystem and businesses with a high technological base. Very interested in Growth and scaling businesses ❤️
         </Paragraph>
-        <Box align="center" my={4}>
-          <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
 
       <Section delay={0.2}>
