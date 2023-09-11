@@ -116,7 +116,7 @@ const Home = () => (
           Improvement and development of new tools linked to SAP
         </BioSection>
         <Box align="center" my={4}>
-          <Link target="_blank" href="https://firebasestorage.googleapis.com/v0/b/jdel54-portfolio.appspot.com/o/CV_Jorge_English_Sept23.pdf?alt=media&token=6b5ca14b-3a0f-48bf-bcff-d299517a22d3" passHref scroll={false}>
+          <Link target="_blank" href="https://firebasestorage.googleapis.com/v0/b/jdel54-portfolio.appspot.com/o/CV_Jorge_English_Sept23.pdf?alt=media&token=4de7fb76-6056-416f-a327-609dc310c291" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My Resumé
             </Button>
@@ -134,12 +134,6 @@ const Home = () => (
         href="https://usewise.io"
         >
         → Usewise.io</Link> - own AI-powered business advisor for companies that rapidly processes all internal knowledge, documents, and data.
-    
-      <br/><Link
-      target="_blank"
-      href="https://linklemon.agency"
-      >
-      → Linklemon.agency</Link> - Expertise in automatising processes and workflows for companies reducing manual workload
       <br/>→ Amazon FBA seller
     </BioSection>
       </Section>

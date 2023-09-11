@@ -2,7 +2,6 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-
 import musicSearch_r from '../public/images/works/musicSearch_r.png'
 import Medifresco_r from '../public/images/works/Medifresco_r.png'
 import auth_r from '../public/images/works/auth_r.png'
