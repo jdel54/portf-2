@@ -108,7 +108,7 @@ const Home = () => (
           Improvement and development of new tools linked to SAP
         </BioSection>
         <Box align="center" my={4}>
-          <Link target="_blank" href="https://firebasestorage.googleapis.com/v0/b/jdel54-portfolio.appspot.com/o/CV_Jorge_English_Sept23.pdf?alt=media&token=7c75f26a-00c8-4293-9f64-98c9172f85fd" passHref scroll={false}>
+          <Link target="_blank" href="https://firebasestorage.googleapis.com/v0/b/jdel54-portfolio.appspot.com/o/CV_Jorge_English_Sept23.pdf?alt=media&token=24728b22-64ac-4d6c-ba45-94aa8dea34ed" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My Resumé
             </Button>
